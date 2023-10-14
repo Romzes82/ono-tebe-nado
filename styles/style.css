@@ -44,8 +44,8 @@
 
 .address {
     width: 240px;
-    font-style: nowrap;
-    justify-self:end;
+    white-space: nowrap;
+    justify-self: end;
     line-height: 1.35;
     text-underline-offset: 4px;
     font-style: normal;
