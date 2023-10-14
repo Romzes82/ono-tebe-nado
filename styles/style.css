@@ -51,5 +51,10 @@
     width: 240px;
     font-style: normal;
     justify-self:end;
+    line-height: 1.35;
+
+    text-underline-offset: 4px;
 }
+
+
 
