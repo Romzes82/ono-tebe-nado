@@ -40,8 +40,7 @@
     </header>
     <main>
       <section class="cover">
-        <!-- полупрозрачный блок поверх секции -->
-        <div class="overlay"></div>
+        <div class="overlay"></div> <!-- полупрозрачный блок поверх секции(за счет z-index) -->
           <h1 class="cover__title">
             <span class="aligned-text">о<span class="letter-spacing-extended">но</span>
             </span>
@@ -50,10 +49,18 @@
             <span class="aligned-text aligned-text_right">
               <span class="letter-spacing-extended">н</span>ад<span class="delete-end-spacing">о</span>
             </span>
-           </h1>
+          </h1>
+        <div class="cover__description">
+          <p class="cover__description-text">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="bet-button">Сделать ставку</button>
+        </div>
       </section>
-      <!-- <section class="lots"> </section>
-      <section class="about"> </section> -->
+      <!-- <section class="lots">
+
+      </section> -->
+    <!-- <section class="about"> </section> -->
     </main>
     <footer>
 
