@@ -165,8 +165,8 @@
     font-size: 20px;
     font-weight: 400;
     /* line-height: normal; */
-    /* margin-left: 40px;
-    margin-bottom: 2px; */
+    margin-left: 40px;
+    margin-bottom: 2px;
     /* margin-top: 30px; */
     text-decoration: underline;
     text-underline-offset: 4px;
@@ -250,12 +250,14 @@
 
 /* ABOUT */
 
+.about {
+    padding: 0px 50px 180px;
+}
+
 .about__logo-image {
     display: block;
     width: 148px;
     height: 114px;
-    /* margin: 63px 46px; */
-
 }
 
 .about__logo {
@@ -265,7 +267,7 @@
     background-color: #000;
     border-radius: 50%;
     padding: 63px 46px;
-    
+    /* align-self: center; */
 
 }
 
@@ -290,7 +292,11 @@
 }
 
 .about__column-left {
-    width: 850px;
+    display: flex;
+    /* min-width: 506px; */
+    min-width: 32.25%;
+    justify-content: center;
+   /* margin: 0px 95px;  */
 }
 
 
