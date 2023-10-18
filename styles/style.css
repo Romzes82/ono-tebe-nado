@@ -288,10 +288,6 @@
 
 }
 
-.footer__social-icon {
-    width: 48px;
-}
-
 .address.address-left {
     justify-self: start;
     font-size: 18px;
@@ -313,6 +309,10 @@
 .footer__menu-link {
     text-decoration: underline;
     text-underline-offset: 4px;
+}
+
+.footer__social-icon {
+    width: 48px;
 }
 
 .footer__social-list {
