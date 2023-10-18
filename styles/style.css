@@ -277,9 +277,14 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    margin-bottom: 100px;
+
 }
 
 .about__text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -299,6 +304,11 @@
    /* margin: 0px 95px;  */
 }
 
+.about__column-right {
+    display: grid;
+    padding: 100px 0 0;
+    /* gap: 25px; */
+}
 
 
 
